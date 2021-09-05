@@ -22,9 +22,9 @@ Static Library for Microsoft Visual Studio
 
 8) Type CMake command like this 
 
-cmake -Bc:\mysql -DBUILD_SHARED_LIBS=OFF -DLINK_STATIC_RUNTIME_LIBRARIES=1 -DDOWNLOAD_BOOST=1 -DWITH_BOOST="C:\Boost" -DCMAKE_CXX_FLAGS_RELEASE="/MT" -DWITH_SSL="C:\openssl32_msvc" -G "Visual Studio 15 2017"
+cmake -Bc:\mysql -DBUILD_SHARED_LIBS=OFF -DLINK_STATIC_RUNTIME_LIBRARIES=1 -DDOWNLOAD_BOOST=1 -DWITH_BOOST="C:\Boost" -DWITH_SSL="C:\openssl32_msvc" -G "Visual Studio 15 2017"
 
--B is build path, -DWITH_SSL is your previous built openssl path, make sure build with /mt flag, -G is compilar, if need 64 bit, type "Visual Studio 15 2017 Win64"
+-B is build path, -DWITH_SSL is your previous built openssl path, -G is compilar, if need 64 bit, type "Visual Studio 15 2017 Win64"
 And wait a while to finish
 
 ![image](https://user-images.githubusercontent.com/17219341/132113660-8359ba73-59dd-4b25-b341-b6a0680ff28d.png)
